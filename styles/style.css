@@ -1,6 +1,7 @@
 
 html{
     font-size: 22px;
+    scroll-behavior: smooth;
 }
 body{
     min-height: 100vh;
