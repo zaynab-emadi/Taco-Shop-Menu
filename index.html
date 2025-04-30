@@ -10,66 +10,36 @@
     <meta name="description" content="The official website for The Little Taco Shop">
     <title>The Little Taco Shop</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" >
-    <link rel="stylesheet" type="text/css" href="styles/style.css" >
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
   </head>
   <body>
-    <header>
-      <h1>Welcome to The Little Taco Shop</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about"
-              >About <abbr title="The Little Taco Shop">LTS</abbr></a
-            >
-          </li>
-          <li><a href="#menu">Our Menu</a></li>
-          <li><a href="hours.html">Store Hours</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+    <header class="header">
+      <h1 class="header__h1">Little Taco Shop</h1>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="hours.html">Hours</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
+    </header>
+    <section class="hero">
+      <h2 class="hero__h2">Bienvenido's !</h2>
       <figure>
         <img
-          src="img/tacos_and_drink_400x267.png"
-          alt="Tacos and a Drink"
-          width="400"
-          height="267"
+                src="img/tacos_and_drink_1000x667.png"
+                alt="Tacos and a Drink"
+                width="1000"
+                height="667"
         >
-        <figcaption>Tacos and a Drink</figcaption>
+        <figcaption class="offscreen">Tacos and a Drink</figcaption>
       </figure>
-    </header>
-    <hr>
-    <main>
-      <article id="about">
-        <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
-        <p>
-          <abbr title="Little Taco Shop">LTS</abbr> was founded in
-          <time datetime="2022">2022</time> Our shop was built from a
-          <strong>love of tacos</strong> 🌮🌮🌮. we hope our shop adds a unique
-          and interesting place to our little town
-        </p>
-        <aside>
-          <h3>Taco Trivia</h3>
-          <details>
-            <summary>When did tacos first appear in the United States?</summary>
-            <p>
-              Jeffery M.Pilcher, taco historian and professor of history at the
-              University of Minnesota, says the earliest mention of tacos in the
-              United States are in a newspaper from
-              <time datetime="1905">1905</time>. <br>(Source :
-              <cite
-                ><a
-                  href="/https:/www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
-                  >Smithosonian Magazine</a
-                ></cite
-              >)
-            </p>
-          </details>
-        </aside>
-      </article>
-      <hr>
-      <article id="menu">
+    </section>
+    <main class="main">
+      <article id="menu" class="main__article">
         <h2>Our Menu</h2>
-        <table>
+        <table >
           <caption>
             Our Tacos
           </caption>
@@ -120,9 +90,11 @@
         </p>
       </article>
     </main>
-    <hr>
-    <footer>
-      <p>Copyright &copy; The Little Taco Shop</p>
+    <footer class="footer">
+      <p>
+        <span class="nowrap">Copyright &copy;</span>
+        <span class="nowrap">The Little Taco Shop</span>
+      </p>
     </footer>
   </body>
 </html>
