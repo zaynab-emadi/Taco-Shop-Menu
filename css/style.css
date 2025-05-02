@@ -50,19 +50,19 @@ button {
   --MARGIN: clamp(1em, 2.4vh, 1.5rem) 0;
 }
 @media (prefers-color-scheme: dark) {
-    :root {
-        --BGCOLOR: #000;
-        --BGCOLOR_FADE: gray;
-        --HEADER-COLOR: whitesmoke ;
-        --NAV-BGCOLOR: rgb(20, 20, 20);
-        --HERO-COLOR: #333;
-        --BODY-BGCOLOR: #333;
-        --FONT-COLOR: whitesmoke ;
-        --BORDER-COLOR: whitesmoke;
-        --LINK-COLOR: whitesmoke;
-        --LINK-HOVER: orange;
-        --LINK-ACTIVE: rgb(252, 200, 103);
-    }
+  :root {
+    --BGCOLOR: #000;
+    --BGCOLOR_FADE: gray;
+    --HEADER-COLOR: whitesmoke;
+    --NAV-BGCOLOR: rgb(20, 20, 20);
+    --HERO-COLOR: #333;
+    --BODY-BGCOLOR: #333;
+    --FONT-COLOR: whitesmoke;
+    --BORDER-COLOR: whitesmoke;
+    --LINK-COLOR: whitesmoke;
+    --LINK-HOVER: orange;
+    --LINK-ACTIVE: rgb(252, 200, 103);
+  }
 }
 /*|| UTILITY CLASSES*/
 .offscreen {
