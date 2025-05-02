@@ -191,7 +191,7 @@ a:active {
   padding: var(--PADDING-TB) var(--PADDING-SIDE);
 }
 .main__article {
-  scroll-margin-top: 6.5rem; /*#TODO: check the meaning of this */
+  scroll-margin-top: 6.5rem;
   margin: var(--MARGIN);
 }
 .main__article:first-child {
