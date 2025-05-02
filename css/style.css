@@ -40,6 +40,7 @@ button {
   --LINK-COLOR: #000;
   --LINK-HOVER: hsla(0, 0%, 0%, 0.6);
   --NAV-BGCOLOR: #fff;
+  --STRONG-COLOR: orange;
   /*BORDERS*/
   --BORDERS: 1px, solid var(--BORDER-COLOR);
   --BORDER-RADIUS: 15px;
@@ -110,6 +111,7 @@ p {
 }
 a:any-link {
   color: var(--LINK-COLOR);
+  text-decoration: none;
 }
 a:hover,
 a:focus-visible {
@@ -233,8 +235,20 @@ a:active {
   border-radius: var(--BORDER-RADIUS);
   background-color: var(--HIGHLIGH-COLOR);
   color: var(--HEADER-COLOR);
+  font-weight: bold;
 }
-
+/*|| HOURS*/
+.hours__paragraph{
+  color: var(--STRONG-COLOR);
+  font-weight: bold;
+  font-style: italic;
+}
+.hours__list{
+  line-height: 2;
+}
+.hours__detail{
+  margin-left: 1em;
+}
 /*|| MENU*/
 thead,
 tbody,
